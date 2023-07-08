@@ -7,7 +7,8 @@ class Conversion{
         str=str+s.charAt(i);
       }
     }
-    System.out.println(Integer.parseInt(str));
+    int i=Integer.parseInt(str);
+    System.out.println(i);
   }
 }
       
