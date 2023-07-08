@@ -1,4 +1,7 @@
 body{
-	hand:two;
-	legs:two;
+	hand : two;
+	legs : two;
+
+	Eyes : two;
+	Ears : two
 }
