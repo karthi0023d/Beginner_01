@@ -5,6 +5,9 @@ class test{
 		for(int j:i){
 			System.out.print(j+"\t");
 			System.out.print("\r");
+			System.out.print(j); // changes made
+			System.out.println(""\t); // new line added
+
 		}
     }
 }
