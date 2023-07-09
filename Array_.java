@@ -3,7 +3,7 @@ class test{
 	public static void main(String[] args){
 
 		boolean b=false;
-        String s1="care";
+        	String s1="care";
 		String s2="race";
 		if(s1.length()==s2.length()){
 			char[] c1=s1.toLowerCase().toCharArray();
