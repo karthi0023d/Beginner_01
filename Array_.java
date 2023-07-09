@@ -1,13 +1,18 @@
 class test{
 	public static void main(String[] args){
-        	System.out.println("int array program");
-		int[] i={1,3,5,6,8};
-		for(int j:i){
-			System.out.print(j+"\t");
-			System.out.print("\r");
-			System.out.print(j); // changes made
-			System.out.println(""\t); // new line added
-
+		boolean b=false;
+        	String s1="care";
+		String s2="race";
+		if(s1.length()==s2.length()){
+			char[] c1=s1.toLowerCase().toCharArray();
+			char[] c2=s2.toLowerCase().toCharArray();
+			Arrays.sort(c1);
+			Arrays.sort(c2);
+			b=Arrays.equals(c1,c2);
 		}
+		if(b==true)
+			System.out.println("Anagram");
+		else
+			System.out.println("Not a Anagram");
     }
 }
