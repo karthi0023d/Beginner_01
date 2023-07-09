@@ -1,5 +1,7 @@
+import java.util.*;
 class test{
 	public static void main(String[] args){
+
 		boolean b=false;
         	String s1="care";
 		String s2="race";
@@ -9,10 +11,26 @@ class test{
 			Arrays.sort(c1);
 			Arrays.sort(c2);
 			b=Arrays.equals(c1,c2);
-		}
-		if(b==true)
+			if(b==true)
 			System.out.println("Anagram");
 		else
 			System.out.println("Not a Anagram");
-    }
+
+		int[] i={1,3,5,6,8};
+		for(int j:i){
+			System.out.print(j+"\t");
+		}
+		
+		String [] s={"D","A","B","C"};
+		Arrays.sort(s);
+		for(String str:s){
+			System.out.print(str);
+			System.out.print("\t");
+		}
+		
+		String[] str={"A","B","D","C"};
+		for(String s:str){
+			System.out.print(s+"\t");
+		}
+		    }
 }
