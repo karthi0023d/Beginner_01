@@ -49,4 +49,5 @@ class test{
 		//print the reversed string
 		System.out.println("the reversed string is: ");
 		System.out.println("\t"+name);
+
 }
