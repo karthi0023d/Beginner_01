@@ -1,3 +1,4 @@
+import java.util.*;
 class test{
 	public static void main(String[] args){
 
@@ -18,6 +19,13 @@ class test{
 		int[] i={1,3,5,6,8};
 		for(int j:i){
 			System.out.print(j+"\t");
+		}
+		
+		String [] s={"D","A","B","C"};
+		Arrays.sort(s);
+		for(String str:s){
+			System.out.print(str);
+			System.out.print("\t");
 		}
 		
 		String[] str={"A","B","D","C"};
