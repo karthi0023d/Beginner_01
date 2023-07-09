@@ -46,5 +46,6 @@ class test{
 				}
 			}
 		}
-		// need to print the reversed string 
+		//print the reversed string
+		System.out.println("\t"+name);
 }
