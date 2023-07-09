@@ -1,1 +1,10 @@
-First line in the doc
+package demo;
+
+import java.util.*;
+import java.io.*;
+
+public class Echo{
+	public static void main(String[] args){
+		System.out.println("!!!...");
+	}
+}
